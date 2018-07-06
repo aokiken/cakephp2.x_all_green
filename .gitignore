@@ -1,0 +1,9 @@
+.idea/*
+.vagrant/*
+/Plugin/*
+/Vendor/*
+/public/tmp/*
+/public/Config/core.php
+/public/Config/database.php
+/public/Config/email.php
+
