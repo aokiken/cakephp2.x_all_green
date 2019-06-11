@@ -1,23 +1,61 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba32f111b04dffe01d52cb4cbb20646a",
+    "content-hash": "be711323665f06c422bd777a88036c33",
     "packages": [
         {
-            "name": "cakephp/cakephp",
-            "version": "2.10.10",
+            "name": "cakedc/migrations",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "fc061a55c43873db387670f27fc1129366c0bdcd"
+                "url": "https://github.com/CakeDC/migrations.git",
+                "reference": "b1180762ebc6402b67b9ccae13f1f9ce6ccecf65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/fc061a55c43873db387670f27fc1129366c0bdcd",
-                "reference": "fc061a55c43873db387670f27fc1129366c0bdcd",
+                "url": "https://api.github.com/repos/CakeDC/migrations/zipball/b1180762ebc6402b67b9ccae13f1f9ce6ccecf65",
+                "reference": "b1180762ebc6402b67b9ccae13f1f9ce6ccecf65",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "cakephp-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cake Development Corporation",
+                    "email": "team@cakedc.com",
+                    "homepage": "http://cakedc.com"
+                }
+            ],
+            "description": "Migrations Plugin for CakePHP",
+            "homepage": "http://cakedc.com",
+            "keywords": [
+                "cakephp",
+                "migrations"
+            ],
+            "time": "2017-03-22T18:18:22+00:00"
+        },
+        {
+            "name": "cakephp/cakephp",
+            "version": "2.10.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/cakephp.git",
+                "reference": "00aec4b4f58a339463eae15f880a53850b82bf6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/00aec4b4f58a339463eae15f880a53850b82bf6a",
+                "reference": "00aec4b4f58a339463eae15f880a53850b82bf6a",
                 "shasum": ""
             },
             "require": {
@@ -50,20 +88,20 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2018-05-12T02:06:44+00:00"
+            "time": "2019-05-14T02:28:47+00:00"
         },
         {
             "name": "cakephp/debug_kit",
-            "version": "2.2.8",
+            "version": "2.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/debug_kit.git",
-                "reference": "c864f21add2cd0d0c4e58b5d6c68a8016b1a3235"
+                "reference": "8649a612001fa1caee82d9c432b8223cef221104"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/c864f21add2cd0d0c4e58b5d6c68a8016b1a3235",
-                "reference": "c864f21add2cd0d0c4e58b5d6c68a8016b1a3235",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/8649a612001fa1caee82d9c432b8223cef221104",
+                "reference": "8649a612001fa1caee82d9c432b8223cef221104",
                 "shasum": ""
             },
             "require": {
@@ -102,20 +140,20 @@
                 "debug",
                 "kit"
             ],
-            "time": "2018-04-18T01:39:58+00:00"
+            "time": "2018-09-18T01:48:48+00:00"
         },
         {
             "name": "composer/installers",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "049797d727261bf27f2690430d935067710049c2"
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/049797d727261bf27f2690430d935067710049c2",
-                "reference": "049797d727261bf27f2690430d935067710049c2",
+                "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
                 "shasum": ""
             },
             "require": {
@@ -222,7 +260,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-12-29T09:13:20+00:00"
+            "time": "2018-08-27T06:10:37+00:00"
         }
     ],
     "packages-dev": [],
